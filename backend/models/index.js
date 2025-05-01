@@ -1,0 +1,20 @@
+const { Sequelize, DataTypes } = require("sequelize");
+const dbConfig = require("../config/db.config");
+
+const sequelize = new Sequelize(dbConfig.DB, dbConfig.USER, dbConfig.PASSWORD, {
+  host: dbConfig.HOST,
+  dialect: dbConfig.dialect,
+});
+
+const db = {};
+
+db.Sequelize = Sequelize;
+db.sequelize = sequelize;
+
+db.Vehicle = require("./vehicle.model")(sequelize, DataTypes);
+db.Booking = require("./booking.model")(sequelize, DataTypes);
+
+db.Vehicle.hasMany(db.Booking);
+db.Booking.belongsTo(db.Vehicle);
+
+module.exports = db;
