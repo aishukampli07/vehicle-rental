@@ -62,24 +62,5 @@ Choose the desired vehicle type, and proceed with the next steps in the booking 
 
 
 
-PROJECT STRUCTURE
 
-vehicle-rental-booking/
-│
-├── backend/                # Backend API
-│   ├── config/             # MySQL database configuration
-│   ├── models/             # Sequelize models
-│   ├── routes/             # API routes
-│   ├── seeders/            # Initial data seeders
-│   ├── server.js           # Main backend entry point
-│   └── package.json        # Backend dependencies
-│
-├── frontend/               # React frontend
-│   ├── src/                # Frontend source code
-│   │   ├── components/     # React components
-│   │   ├── App.js          # Main app component
-│   │   └── index.js        # Main entry point
-│   └── package.json        # Frontend dependencies
-│
-└── README.md               # This file
 
