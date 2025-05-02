@@ -64,3 +64,14 @@ Choose the desired vehicle type, and proceed with the next steps in the booking 
 
 
 
+
+
+SAMPLE OUTPUT PNG.
+![Sample Output](C:\Users\USER\Pictures\git.PNG)
+
+
+
+
+
+
+
