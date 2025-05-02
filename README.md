@@ -33,22 +33,7 @@ npm install
 Set up your MySQL database:
 Create a MySQL database and configure the connection details in backend/config/config.js.
 
-Run the seed script to populate initial data:
 
-node seeders/seed.js
-Start the backend server:
-
-npm start
-This will start the backend on http://localhost:5000.
-
-Frontend Setup
-Navigate to the frontend directory:
-cd frontend
-Install the necessary frontend dependencies:
-npm install
-Start the frontend development server:
-npm start
-This will start the frontend on http://localhost:3000.
 
 
 How to Use
